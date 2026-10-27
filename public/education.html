@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#F3F7FA" />
+    <meta
+      name="description"
+      content="Explore historical mental-health data from 1990–2017 and anonymous student survey summaries. Compare countries, years and measures in an accessible atlas."
+    />
+    <title>Academic pressure | Our World in Depression</title>
+    <link
+      rel="preload"
+      href="fonts/source-sans-3-latin-400-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="vendor/d3.v7.min.js"></script>
+    <script type="module" src="scripts/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="Our World in Depression home"
+        translate="no"
+        ><svg viewBox="0 0 40 40" width="38" height="38" aria-hidden="true">
+          <circle
+            cx="20"
+            cy="20"
+            r="17"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <ellipse
+            cx="20"
+            cy="20"
+            rx="8"
+            ry="17"
+            fill="none"
+            stroke="currentColor"
+          />
+          <path
+            d="M4 15h32M4 25h32M20 3v34"
+            fill="none"
+            stroke="currentColor"
+          /></svg
+        ><span>Our World<br /><strong>in Depression</strong></span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="index.html" data-nav="global">Global atlas</a
+        ><a href="vietnam.html" data-nav="vietnam">Vietnam</a
+        ><a href="intro.html" data-nav="survey">Student survey</a>
+      </nav>
+      <a class="source-link" href="#sources"
+        >About the data <span aria-hidden="true">↗</span></a
+      >
+    </header>
+    <main id="main" class="wrap" tabindex="-1">
+      <div id="app"></div>
+      <div id="status" role="status" aria-live="polite">Loading the atlas…</div>
+      <noscript
+        ><p>
+          Enable JavaScript to explore the charts. You can also inspect the
+          historical <a href="data/countries.json">country data</a> and
+          <a href="data/survey.json">anonymous survey summaries</a>.
+        </p></noscript
+      >
+    </main>
+    <footer class="wrap site-footer">
+      <span>Our World in Depression</span
+      ><span
+        >A data visualization project by Tramcam Team<br />International
+        University · VNUHCM</span
+      ><a href="https://github.com/itzmealvin/DSDV_ourWorldInDepression"
+        >View the project on GitHub</a
+      >
+    </footer>
+  </body>
+</html>

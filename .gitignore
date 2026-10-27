@@ -1,0 +1,16 @@
+node_modules/
+test-results/
+playwright-report/
+.env
+.env.*
+.dev.vars*
+.DS_Store
+
+# wrangler files
+.wrangler
+!.dev.vars.example
+!.env.example
+
+# Python maintenance/test caches
+__pycache__/
+*.py[cod]

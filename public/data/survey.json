@@ -1,0 +1,113 @@
+{
+  "topics": {
+    "education": {
+      "total": 291,
+      "levels": [
+        { "label": "Normal", "count": 51 },
+        { "label": "Minimal", "count": 89 },
+        { "label": "Minor", "count": 75 },
+        { "label": "Moderate", "count": 49 },
+        { "label": "Severe", "count": 27 }
+      ],
+      "frequency": [
+        { "label": "Never", "count": 159 },
+        { "label": "Once or twice", "count": 82 },
+        { "label": "Around five times", "count": 17 },
+        { "label": "Around ten times", "count": 10 },
+        { "label": "Many times", "count": 18 },
+        { "label": "Every day", "count": 5 }
+      ]
+    },
+    "family": {
+      "total": 86,
+      "levels": [
+        { "label": "Normal", "count": 5 },
+        { "label": "Minimal", "count": 17 },
+        { "label": "Minor", "count": 25 },
+        { "label": "Moderate", "count": 17 },
+        { "label": "Severe", "count": 22 }
+      ],
+      "frequency": [
+        { "label": "Never", "count": 21 },
+        { "label": "Once or twice", "count": 23 },
+        { "label": "Around five times", "count": 14 },
+        { "label": "Around ten times", "count": 6 },
+        { "label": "Many times", "count": 19 },
+        { "label": "Every day", "count": 3 }
+      ]
+    },
+    "love": {
+      "total": 69,
+      "levels": [
+        { "label": "Normal", "count": 14 },
+        { "label": "Minimal", "count": 18 },
+        { "label": "Minor", "count": 16 },
+        { "label": "Moderate", "count": 14 },
+        { "label": "Severe", "count": 7 }
+      ],
+      "frequency": [
+        { "label": "Never", "count": 34 },
+        { "label": "Once or twice", "count": 20 },
+        { "label": "Around five times", "count": 6 },
+        { "label": "Around ten times", "count": 3 },
+        { "label": "Many times", "count": 6 }
+      ]
+    },
+    "self": {
+      "total": 224,
+      "levels": [
+        { "label": "Normal", "count": 29 },
+        { "label": "Minimal", "count": 50 },
+        { "label": "Minor", "count": 55 },
+        { "label": "Moderate", "count": 53 },
+        { "label": "Severe", "count": 37 }
+      ],
+      "frequency": [
+        { "label": "Never", "count": 87 },
+        { "label": "Once or twice", "count": 70 },
+        { "label": "Around five times", "count": 18 },
+        { "label": "Around ten times", "count": 6 },
+        { "label": "Many times", "count": 35 },
+        { "label": "Every day", "count": 8 }
+      ]
+    },
+    "work": {
+      "total": 330,
+      "levels": [
+        { "label": "Normal", "count": 56 },
+        { "label": "Minimal", "count": 114 },
+        { "label": "Minor", "count": 65 },
+        { "label": "Moderate", "count": 54 },
+        { "label": "Severe", "count": 41 }
+      ],
+      "frequency": [
+        { "label": "Never", "count": 196 },
+        { "label": "Once or twice", "count": 84 },
+        { "label": "Around five times", "count": 22 },
+        { "label": "Around ten times", "count": 5 },
+        { "label": "Many times", "count": 23 }
+      ]
+    }
+  },
+  "demographics": {
+    "Sex": [
+      { "label": "Male", "count": 541 },
+      { "label": "Female", "count": 459 }
+    ],
+    "Academic Level": [
+      { "label": "Sinh viên năm 1", "count": 363 },
+      { "label": "Học sinh cấp 3", "count": 95 },
+      { "label": "Đã tốt nghiệp.", "count": 14 },
+      { "label": "Sinh viên năm 2", "count": 363 },
+      { "label": "Sinh viên năm 3", "count": 89 },
+      { "label": "Sinh viên năm 4", "count": 26 },
+      { "label": "Sinh viên từ năm 4 trở lên", "count": 6 },
+      { "label": "Sinh viên trung cấp", "count": 44 }
+    ],
+    "LGBT": [
+      { "label": "Yes", "count": 88 },
+      { "label": "No", "count": 844 },
+      { "label": "Undefined", "count": 68 }
+    ]
+  }
+}
